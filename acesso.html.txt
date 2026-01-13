@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PetHub • Acesso</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <h1>🔐 Acesso</h1>
+  <p>Login e permissões</p>
+</header>
+
+<main class="container">
+
+  <section class="card">
+    <ul>
+      <li>Verifique usuário e senha</li>
+      <li>Confira se o Caps Lock está ativado</li>
+      <li>Em caso de bloqueio, abra um chamado</li>
+    </ul>
+  </section>
+
+  <a href="index.html" class="botao voltar">⬅ Voltar ao PetHub</a>
+
+</main>
+
+<footer class="rodape">
+  Criado por Thiago Antonio
+</footer>
+
+</body>
+</html>

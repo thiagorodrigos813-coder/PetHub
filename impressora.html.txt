@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PetHub • Impressora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <h1>🖨️ Impressora</h1>
+  <p>Problemas e soluções</p>
+</header>
+
+<main class="container">
+
+  <section class="card">
+    <h2>Impressora não imprime</h2>
+    <ul>
+      <li>Verifique se está ligada</li>
+      <li>Confira papel e toner</li>
+      <li>Veja se a impressora correta está selecionada</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>Documento preso na fila</h2>
+    <ul>
+      <li>Cancele a impressão</li>
+      <li>Reinicie o computador</li>
+      <li>Tente novamente</li>
+    </ul>
+  </section>
+
+  <a href="index.html" class="botao voltar">⬅ Voltar ao PetHub</a>
+
+</main>
+
+<footer class="rodape">
+  Criado por Thiago Antonio
+</footer>
+
+</body>
+</html>

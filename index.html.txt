@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PetHub • Portal do Colaborador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topo">
+  <img src="https://i.imgur.com/dvvCN6m.png" class="logo">
+  <h1>PetHub</h1>
+  <p>Portal de orientação para colaboradores</p>
+</header>
+
+<main class="container">
+
+  <section class="alerta">
+    <strong>Antes de abrir um chamado, consulte as orientações abaixo.</strong>
+    <p>A maioria dos problemas comuns pode ser resolvida em poucos minutos.</p>
+    <p class="obs">
+      O PetHub é um portal de orientação. Problemas persistentes devem ser reportados via chamado.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>🛠️ Como posso te ajudar?</h2>
+    <div class="botoes">
+      <a href="impressora.html" class="botao">🖨️ Impressora</a>
+      <a href="internet.html" class="botao">🌐 Internet</a>
+      <a href="lentidao.html" class="botao">🐢 Lentidão</a>
+      <a href="acesso.html" class="botao">🔐 Acesso</a>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>👋 Sou novo na empresa</h2>
+    <ul>
+      <li>Conheça as regras básicas</li>
+      <li>Instale os programas obrigatórios</li>
+      <li>Siga as boas práticas de uso do computador</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>⚠️ Boas práticas importantes</h2>
+    <ul>
+      <li>Não deixe o computador desbloqueado</li>
+      <li>Não compartilhe login e senha</li>
+      <li>Não acesse sites inapropriados</li>
+      <li>Cuide da vestimenta na área de trabalho</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>🧩 Programas obrigatórios</h2>
+    <ul>
+      <li>Kaspersky</li>
+      <li>7-Zip</li>
+      <li>Foxit Reader</li>
+      <li>Google Chrome</li>
+      <li>Pacote Office (Outlook, Excel, Word e PowerPoint)</li>
+    </ul>
+  </section>
+
+  <section class="dica">
+    <h3>💡 Dica do dia da P.A.T.I</h3>
+    <p>Bloqueie sua tela ao se ausentar do computador.</p>
+  </section>
+
+  <section class="final">
+    🎉 <strong>Você resolveu seu problema sem abrir chamado!</strong>
+  </section>
+
+  <section class="posicionamento">
+    “PetHub não substitui o TI. Ele potencializa o TI.”
+  </section>
+
+</main>
+
+<footer class="rodape">
+  Criado por Thiago Antonio<br>
+  <span>Mais informações serão disponibilizadas em breve.</span>
+</footer>
+
+</body>
+</html>
