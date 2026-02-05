@@ -34,8 +34,8 @@ text-align: center;
 
 /* LOGO */
 .logo {
-width: 400px;
-margin-bottom: 10px;
+width: 400 px;
+margin-bottom: 10 px;
 }
 
 /* MENU */
@@ -172,5 +172,6 @@ opacity: 1;
 transform: translateY(0);
 }
 }
+
 
 
