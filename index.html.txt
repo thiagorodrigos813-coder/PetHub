@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>PetHub - Portal Corporativo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+  <img src="https://i.ibb.co/nM4jWn5Q/extra-large.png" alt="Logo PetHub" class="logo-img">
+  <h1>Portal Corporativo</h1>
+  <p>Soluções e Suporte Interno</p>
+</header>
+
+<nav class="nav">
+  <a href="#sobre">Sobre</a>
+  <a href="#politicas">Políticas</a>
+  <a href="#seguranca">Segurança</a>
+  <a href="#infra">Infraestrutura</a>
+  <a href="#faq">FAQ</a>
+  <a href="#suporte">Suporte TI</a>
+</nav>
+
+<main class="container">
+
+<section id="sobre" class="card reveal">
+  <h2>Sobre o Portal</h2>
+  <p>
+    O PetHub é a plataforma oficial de comunicação interna.
+    Aqui centralizamos políticas, normas internas e suporte técnico.
+  </p>
+</section>
+
+<section id="politicas" class="card reveal">
+  <h2>Políticas Corporativas</h2>
+  <ul>
+    <li>Política de uso de equipamentos</li>
+    <li>Política de senhas e acessos</li>
+    <li>Diretrizes de segurança da informação</li>
+    <li>Normas de conduta digital</li>
+  </ul>
+</section>
+
+<section id="seguranca" class="card reveal">
+  <h2>Segurança da Informação</h2>
+  <p>
+    Utilize senhas fortes, não compartilhe credenciais e reporte qualquer incidente imediatamente ao time de TI.
+  </p>
+</section>
+
+<section id="infra" class="card reveal">
+  <h2>Infraestrutura Tecnológica</h2>
+  <p>
+    Ambiente monitorado com backups automáticos, antivírus corporativo e controle de acesso seguro à rede interna.
+  </p>
+</section>
+
+<section id="faq" class="card reveal">
+  <h2>Perguntas Frequentes</h2>
+
+  <button class="faq-question">Como redefinir minha senha?</button>
+  <div class="faq-answer">
+    Utilize Ctrl + Alt + Delete e selecione "Alterar senha".
+  </div>
+
+  <button class="faq-question">Não consigo acessar a rede</button>
+  <div class="faq-answer">
+    Verifique conexão física ou Wi-Fi e reinicie o computador.
+  </div>
+
+  <button class="faq-question">Posso instalar softwares adicionais?</button>
+  <div class="faq-answer">
+    Apenas mediante solicitação formal e aprovação da equipe de TI.
+  </div>
+
+</section>
+
+<section id="suporte" class="card reveal">
+  <h2>Suporte Técnico</h2>
+  <p>
+    Para registrar incidentes ou solicitações técnicas, utilize o sistema oficial de chamados.
+  </p>
+  <button id="btnSuporte">Abrir Chamado</button>
+</section>
+
+</main>
+
+<button id="topBtn">↑</button>
+
+<footer class="footer">
+  PetHub © 2026 — Tecnologia da Informação
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

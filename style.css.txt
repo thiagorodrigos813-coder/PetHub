@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background:
+    linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+    url("https://media.istockphoto.com/id/1419766496/pt/foto/abstract-concepts-of-cybersecurity-technology-and-digital-data-protection-protect-internet.jpg?s=1024x1024&w=is&k=20&c=0_Xru0IEL_hrJ10no2QIkYk8O7k2KaBdnw6NXTcszuk=");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #e5e7eb;
+}
+
+/* HEADER */
+.header {
+  text-align: center;
+  padding: 60px 20px 40px;
+  background: linear-gradient(180deg, #0f172a, #0b1120);
+}
+
+.logo-img {
+  width: 180px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 20px rgba(0, 170, 255, 0.4));
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+.header p {
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  padding: 15px;
+  background: rgba(0,0,0,0.4);
+  backdrop-filter: blur(6px);
+}
+
+.nav a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.nav a:hover {
+  color: #4ade80;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* CARD */
+.card {
+  background: rgba(17,24,39,0.85);
+  border-radius: 14px;
+  padding: 30px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255,255,255,0.05);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  border-color: #4ade80;
+  transform: translateY(-4px);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #4ade80;
+  font-size: 1.2rem;
+}
+
+.card ul {
+  padding-left: 20px;
+}
+
+.card li {
+  margin-bottom: 6px;
+}
+
+/* FAQ */
+.faq-question {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #93c5fd;
+  text-align: left;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.faq-answer {
+  display: none;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* BUTTON */
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #4ade80;
+  color: #0a0f1c;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #22c55e;
+}
+
+/* TOP BUTTON */
+#topBtn {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+  border-radius: 50%;
+  padding: 10px 14px;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 25px;
+  opacity: 0.5;
+  font-size: 0.85rem;
+}
+
+/* REVEAL */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 0.6s ease;
+}
